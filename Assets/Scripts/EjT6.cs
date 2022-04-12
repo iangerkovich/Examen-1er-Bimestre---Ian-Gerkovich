@@ -50,7 +50,7 @@ public class EjT6 : MonoBehaviour
 
         if (captotal < 36300)
         {
-            Debug.Log("Quedaron " + entradaslibres " sin vender);
+            Debug.Log("Quedaron " + entradaslibres + " sin vender");
 
         }
 
