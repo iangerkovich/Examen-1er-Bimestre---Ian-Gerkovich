@@ -18,6 +18,8 @@ public class EjT6 : MonoBehaviour
         enttotal = preciocampo + precioplatea;
         int captotal;
         captotal = entcampo + entplatea;
+        int entradaslibres;
+        entradaslibres = 36300 - captotal;
 
 
 
@@ -46,9 +48,9 @@ public class EjT6 : MonoBehaviour
             Debug.Log("No es posible que se hayan vendido tantas entradas");
         }
 
-        if (captotal < 36600)
+        if (captotal < 36300)
         {
-            Debug.Log("Quedaron " + captotal);
+            Debug.Log("Quedaron " + entradaslibres);
 
         }
 
