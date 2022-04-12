@@ -61,6 +61,15 @@ public class EjT6 : MonoBehaviour
         {
             Debug.Log("No se pudieron vender tantas entradas");
         }
+
+        if (captotal >= 18300) ;
+        {
+            Debug.Log("El festival fue un éxito!");
+        }
+        else
+        {
+            Debug.Log("Debemos mejorar la convocatoria");
+        }
     }
 
     // Update is called once per frame
